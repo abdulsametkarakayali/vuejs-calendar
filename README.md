@@ -1,65 +1,24 @@
-# Ultimate Vue.js Developers Course
+# Vue.js Calendar
 
-Source code for the [Ultimate Vue.js Developers Course](http://bit.ly/2mPK8ny).
+## Requirements
+* Node.js
+* MongoDb
+* npm
 
-### Project 3: Vue.js Calendar
+## Getting Started
 
-#### Demo
+1. Clone the project on your desired folder: $ git clone git@github.com:mesqfel/vuejs-calendar.git
 
-See the completed project here: [http://vuejs-calendar.vuejsdevelopers.com/](http://vuejs-calendar.vuejsdevelopers.com/)
+2. Navigate to the folder: $ cd vuejs-calendar
 
-#### Pre-installation
+3. Install dependencies: $ npm install
 
-- Ensure [NPM](https://docs.npmjs.com) and [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) are installed on your system
+4. Set your env vars creating an .env file by copying the sample: $ cp .env_sample .env
 
-#### Installation
+5. Start your mongoDb server: $ mongod
 
-1. Install this code on your local system
- 
-    **Option 1 (recommended)**
-    
-    1. Fork this repository (see top right corner)
-    2. Clone the forked repository on your local file system
-    
-        ```
-        cd /path/to/install/location
-        
-        git clone git@github.com:[your_username]/vuejs-calendar.git
-        ```
-    
-    **Option 2 (easier)**
-    
-    This option is better if you're not a Github user or are not sure how to setup SSH keys
-    
-    ```
-    cd /path/to/install/location
-    
-    git clone https://github.com/vuejsdevelopers/vuejs-calendar.git
-    ```    
-   
-2. Install dependencies
+6. On a new terminal window, at folder /vuejs-calendar run: $ npm start
 
-    ```
-    npm install
-    ```
+7. The app should open automatically on your browse, if not, visit http://localhost:3000/
 
-3. Create a `.env` file by copying the sample
-
-    ```
-    cp .env_sample .env
-    ```
-    
-    Edit the .env file and replace any variables if needed
-    
-4. Start project
-
-    ```
-    npm run start
-    ```
-
-5. Your site will be available at *localhost:[PORT]* where `PORT` is whatever value is set in your `.env` file.
-
-
-#### Lecture branches
-
-Note that branches in the repo named `lecture/xxx` correspond to course lectures.
+8. If you have any trouble, email me: fe.mesquita88@gmail.com
