@@ -1,5 +1,7 @@
 # Vue.js Calendar
 
+A Vue.js calendar with server render
+
 ## Requirements
 * Node.js
 * MongoDb
