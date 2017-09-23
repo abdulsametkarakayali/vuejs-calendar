@@ -1,6 +1,7 @@
 # Vue.js Calendar
 
-A Vue.js calendar with server render
+A Vue.js calendar with server render.<br>
+You can check it live here: https://mesqfel-calendar.herokuapp.com/
 
 ## Requirements
 * Node.js
